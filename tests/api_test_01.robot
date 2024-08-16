@@ -12,4 +12,4 @@ Teste de requisição GET
     Status Should Be    200
     ${json}=    To Json    ${response.content}
     Log To Console    ${json}
-    Should Be Equal As Strings    ${json['title']}    sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+    Should Be Equal As Strings    ${json["title"]}    sunt aut facere repellat provident occaecati excepturi optio reprehenderit
